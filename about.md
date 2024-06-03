@@ -5,19 +5,14 @@ title: About me
 
 <div class="post">
 	<h1 class="pageTitle">About Ji eun Shim</h1>
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with the <a href="https://github.com/jekyll/jekyll-sass-converter">Jekyll SASS convertor</a> plugin</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	
+  	<h1 class="pageTitle">Contact Me</h1>
+	    <p>If you have questions about the post, feel free to <a href="mailto:sim26975@gmail.com">email me</a> or create an issue on <a href="https://github.com/MrCaplan">GitHub</a>. Enjoy!</p>	
+	<form action="http://formspree.io/sim26975@gmail.com" method="POST">
+		<label for="email">Email Address</label>	
+		<input type="email" id="email" name="_replyto" class="full-width"><br>	
+		<label for="message">Message</label>	
+		<textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>	
+		<input type="submit" value="Send" class="button">	
+  	</form>
 </div>
