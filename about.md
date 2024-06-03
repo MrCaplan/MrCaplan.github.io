@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About Jieun Shim
+title: About me
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About me</h1>
+	<h1 class="pageTitle">About Jieun Shim</h1>
 	<img src="{{ '/assets/img/touring.jpg' | relative_url }}" alt="">
 	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
 	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
