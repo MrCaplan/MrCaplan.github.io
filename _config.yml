@@ -2,36 +2,30 @@ title: Jieun Shim
 description: Futuristic Developer
 
 url: https://mrcaplan.github.io/
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-# Header Option
-# header: large
-
-sass:
-    style: compressed
-
 markdown: kramdown
-highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
+ highlighter: rouge
+gems:
+ - jekyll-paginate
+ - jekyll-archives
+ - jekyll-time-to-read
+paginate: 10
 
 navigation:
-    - title: Home
-      url: /index.html
-    - title: About
-      url: /about
-    - title: Contact
-      url: /contact
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Archives
+   #url: /archives
+   url: /contact
 
 social:
-    github: MrCaplan
-    email: sim26975@gmail.com
-    linkedin: brianmaierjr
+   github: MrCaplan
+   email: sim26975@gmail.com
 
 google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: MrCaplan
