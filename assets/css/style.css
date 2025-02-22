@@ -1,5 +1,5 @@
 .user-details {
   font-size: 20px; /* 글씨 크기를 작게 설정 */
   color: white; /* 글씨 색상을 하얀색으로 설정 */
-  line-height: 1.2 !important; /* 줄 간격을 줄임 */
+  line-height: 1.2; /* 줄 간격을 줄임 */
 }
